@@ -1,4 +1,7 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST');
+header("Access-Control-Allow-Headers: X-Requested-With");
 
 define('H5AI_VERSION', '{{VERSION}}');
 define('MIN_PHP_VERSION', '7.0.0');

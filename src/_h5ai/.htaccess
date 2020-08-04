@@ -22,6 +22,7 @@ ServerSignature Off
 
 <IfModule mod_headers.c>
     Header set X-Content-Type-Options "nosniff"
+    Header set Access-Control-Allow-Origin "*"
     Header unset ETag
     Header unset X-Powered-By
 </IfModule>
